@@ -1,0 +1,8 @@
+version: '3'
+services:
+  wordle-bot:
+    restart: always
+    container_name: wordle-bot
+    image: andiburgr/wordle-bot:1.0.0
+    environment:
+      - bot_token=yourbotoken
